@@ -1,1 +1,90 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+.wrapper-lg {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+.wrapper-sm {
+  max-width: 1138px;
+  margin: 0 auto;
+}
+
+html body {
+  font-family: 'Lato', sans-serif;
+}
+
+html body .header {
+  margin-top: 33px;
+}
+
+html body .header .header__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+html body .header .header__wrapper .header__left-side {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+html body .header .header__wrapper .header__left-side .header__logo {
+  padding-bottom: 10px;
+}
+
+html body .header .header__wrapper .header__left-side .header__catalog {
+  font-family: 'Lato', sans-serif;
+  border: 1px solid #A5A5A5;
+  margin-left: 54px;
+  border-radius: 5px;
+  background: #E5E5E5;
+  padding: 12px 27px 14px 20px;
+  font-size: 16px;
+  line-height: 19px;
+  color: #A5A5A5;
+}
+
+html body .header .header__wrapper .header__left-side .header__catalog .header__text {
+  padding-right: 6px;
+}
+
+html body .header .header__wrapper .header__right-side {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+html body .header .header__wrapper .header__right-side .header__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+html body .header .header__wrapper .header__right-side .header__list .header__item {
+  margin-right: 33px;
+}
+
+html body .header .header__wrapper .header__enter {
+  font-family: 'Lato', sans-serif;
+}
+/*# sourceMappingURL=style.css.map */
