@@ -15,6 +15,7 @@ html{
         background: #E5E5E5;
         .header{
             padding-top:33px;
+            margin-bottom:136px;
             .container{
                 padding-bottom:30px;
                 border-bottom: 1px solid #E7E8EA;
@@ -115,7 +116,24 @@ html{
             }
         }
         .rise{
-            
+            .container{
+                .row{
+                    .col-md-8{
+                        .rise__title{
+                            font-size: 48px;
+                            line-height:50px;
+                            color: #333333;
+                        }
+                    }
+                    .col-md-4{
+                        .rise__wrapper{
+                            .rice__pic{
+                            
+                            }
+                        }
+                    }
+                }
+            }
         }
     }
 }

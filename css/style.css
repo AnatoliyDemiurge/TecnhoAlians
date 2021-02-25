@@ -17,6 +17,7 @@ html body {
 
 html body .header {
   padding-top: 33px;
+  margin-bottom: 136px;
 }
 
 html body .header .container {
@@ -122,5 +123,11 @@ html body .header .container .row .header__right-side .header__enter .header__li
   font-weight: bold;
   font-size: 16px;
   line-height: 19px;
+}
+
+html body .rise .container .row .col-md-8 .rise__title {
+  font-size: 48px;
+  line-height: 50px;
+  color: #333333;
 }
 /*# sourceMappingURL=style.css.map */
