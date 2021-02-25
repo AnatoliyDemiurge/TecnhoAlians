@@ -128,9 +128,38 @@ html{
                     .col-md-4{
                         .rise__wrapper{
                             .rice__pic{
-                            
+                                width:100%;
                             }
                         }
+                    }
+                }
+            }
+        }
+        .variables{
+            background:white;
+            .container{
+                .row{
+                    .variables__list{
+                        list-style:none;
+                        .variables__item{
+                            font-weight: 500;
+                            font-size: 16px;
+                            line-height: 19px;
+                            color: #A5A5A5;
+                        }
+                    }
+                }
+                .variables__row-1{
+                    padding-top:60px;
+                    margin-bottom:37px;
+                    .variables__list{
+                        justify-content:space-between;
+                    }
+                }
+                .variables__row-2{
+                    padding-bottom:60px;
+                    .variables__list{
+                        justify-content:space-between;
                     }
                 }
             }
