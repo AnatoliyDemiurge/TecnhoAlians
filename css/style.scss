@@ -306,6 +306,7 @@ html{
             }
         }
         .teaching{
+            margin-bottom:96px;
             .container{
                 .row{
                     .col-md-7{
@@ -315,6 +316,43 @@ html{
                             color: #333333;
                         }
                     }
+                    .col-md-6{
+                        .teaching__item{
+                            .teaching__pic{
+                                background: #ECF1F7;
+                                width:200px;
+                                height:195px;
+                            }
+                            .teaching__info{
+                                padding:37px 0px 0px 24px;
+                                background:white;
+                                padding-right:137px;
+                                .teaching__name{
+                                    font-weight: 500;
+                                    font-size: 18px;
+                                    line-height: 22px;
+                                }
+                                .teaching__text{
+                                    font-weight: 500;
+                                    font-size: 16px;
+                                    line-height: 19px;
+                                    color: #A5A5A5;
+                                }
+                                .teaching__more{
+                                    font-size: 16px;
+                                    line-height: 19px;
+                                    color: #336FEE;
+                                    border:0px;
+                                    border-radius:5px;
+                                    padding:13px 19px;
+                                }
+                            }
+                        }
+                    }
+                }
+                .teaching__row-2{
+                    margin-top:52px;
+                    margin-bottom:28px;
                 }
             }
         }
