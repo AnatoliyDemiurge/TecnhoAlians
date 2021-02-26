@@ -137,6 +137,7 @@ html body .rise .container .row .col-md-4 .rise__wrapper .rice__pic {
 
 html body .variables {
   background: white;
+  margin-bottom: 60px;
 }
 
 html body .variables .container .row .col-md-9 .variables__left {
@@ -159,6 +160,10 @@ html body .variables .container .row .col-md-9 .variables__left .variables__list
   color: #A5A5A5;
 }
 
+html body .variables .container .row .col-md-9 .variables__left .variables__list .variables__item:hover {
+  color: black;
+}
+
 html body .variables .container .row .col-md-3 .variables__list {
   padding-top: 60px;
   list-style: none;
@@ -174,5 +179,139 @@ html body .variables .container .row .col-md-3 .variables__list .variables__item
 
 html body .variables .container .row .col-md-3 .variables__list .variables__item:first-child {
   padding-bottom: 20px;
+}
+
+html body .variables .container .row .col-md-3 .variables__list .variables__item:hover {
+  color: black;
+}
+
+html body .skills {
+  margin-bottom: 60px;
+}
+
+html body .skills .container .row .col-md-6 .skills__title {
+  font-size: 36px;
+  line-height: 44px;
+  color: #333333;
+  margin-bottom: 52px;
+}
+
+html body .skills .container .row .col-md-6 .skills__offer {
+  -webkit-box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.2);
+  background-color: white;
+  padding: 33px 33px 33px 44px;
+}
+
+html body .skills .container .row .col-md-6 .skills__offer .skills__head {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+html body .skills .container .row .col-md-6 .skills__offer .skills__head .skills__name {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+}
+
+html body .skills .container .row .col-md-6 .skills__offer .skills__head .skills__name .skills__plug {
+  display: block;
+}
+
+html body .skills .container .row .col-md-6 .skills__offer .skills__head .skills__pic {
+  position: relative;
+  background: #E30613;
+  height: 65px;
+  width: 67px;
+  border-radius: 5px;
+}
+
+html body .skills .container .row .col-md-6 .skills__offer .skills__head .skills__pic .skills__icon {
+  margin-left: 20px;
+  margin-top: 15px;
+}
+
+html body .skills .container .row .col-md-6 .skills__offer .skills__head .skills__pic .skills__number {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  color: white;
+  margin-left: 11px;
+}
+
+html body .skills .container .row .col-md-6 .skills__offer .skills__text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.01em;
+  color: #A5A5A5;
+}
+
+html body .skills .container .row .col-md-6 .skills__offer .skills__record {
+  text-decoration: none;
+}
+
+html body .skills .container .row .col-md-6 .skills__outset {
+  margin-top: 18px;
+  margin-bottom: 55px;
+  text-align: right;
+}
+
+html body .skills .container .row .col-md-6 .skills__outset .skills__link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #CDCDCD;
+}
+
+html body .retraining .container .row {
+  margin-bottom: 52px;
+}
+
+html body .retraining .container .row .col-md-7 .retraining__title {
+  font-size: 36px;
+  line-height: 44px;
+}
+
+html body .retraining .container .retraining__row-2 .col-md-4 .retraining__item {
+  border: 1px solid #A5A5A5;
+  border-radius: 5px;
+  padding: 38px 0px 35px 32px;
+}
+
+html body .retraining .container .retraining__row-2 .col-md-4 .retraining__item .retraining__name {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  margin-bottom: 18px;
+}
+
+html body .retraining .container .retraining__row-2 .col-md-4 .retraining__item .retraining__text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.01em;
+  color: #A5A5A5;
+  margin-bottom: 24px;
+}
+
+html body .retraining .container .retraining__row-2 .col-md-4 .retraining__item .retraining__more {
+  border: 1px solid #A5A5A5;
+  border-radius: 5px;
+  padding: 13px 19px;
+  background: transparent;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #A5A5A5;
+}
+
+html body .retraining .container .retraining__row-2 .col-md-4 .retraining__item .retraining__more:hover {
+  border: 1px solid #336FEF;
+  color: #336FEF;
 }
 /*# sourceMappingURL=style.css.map */
