@@ -10,6 +10,10 @@
   margin: 0 auto;
 }
 
+h3 {
+  color: #333333;
+}
+
 html body {
   font-family: 'Lato', sans-serif;
   background: #E5E5E5;
@@ -128,7 +132,6 @@ html body .header .container .row .header__right-side .header__enter .header__li
 html body .rise .container .row .col-md-8 .rise__title {
   font-size: 48px;
   line-height: 50px;
-  color: #333333;
 }
 
 html body .rise .container .row .col-md-4 .rise__wrapper .rice__pic {
@@ -158,10 +161,11 @@ html body .variables .container .row .col-md-9 .variables__left .variables__list
   font-size: 16px;
   line-height: 19px;
   color: #A5A5A5;
+  cursor: pointer;
 }
 
 html body .variables .container .row .col-md-9 .variables__left .variables__list .variables__item:hover {
-  color: black;
+  color: #333333;
 }
 
 html body .variables .container .row .col-md-3 .variables__list {
@@ -362,5 +366,44 @@ html body .teaching .container .row .col-md-6 .teaching__item .teaching__info .t
 html body .teaching .container .teaching__row-2 {
   margin-top: 52px;
   margin-bottom: 28px;
+}
+
+html body .systemic {
+  background-color: white;
+}
+
+html body .systemic .container .row .col-md-7 .systemic__title {
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 44px;
+}
+
+html body .systemic .container .systemic__row-1 {
+  padding-top: 71px;
+  margin-bottom: 55px;
+}
+
+html body .systemic .container .systemic__row-2 {
+  margin-bottom: 55px;
+}
+
+html body .systemic .container .systemic__row-2 .col .owl-carousel .item .systemic__wrapper {
+  background: #F6F6F6;
+  border-radius: 5px;
+}
+
+html body .systemic .container .systemic__row-2 .col .owl-carousel .item .systemic__wrapper .systemic__pic {
+  background: #D2D2D2;
+  border-radius: 5px 5px 0px 0px;
+}
+
+html body .systemic .container .systemic__row-2 .col .owl-carousel .item .systemic__wrapper .systemic__info {
+  padding: 48px 0px 54px 30px;
+}
+
+html body .systemic .container .systemic__row-2 .col .owl-carousel .item .systemic__wrapper .systemic__info .systemic__text {
+  font-size: 24px;
+  line-height: 29px;
+  color: #333333;
 }
 /*# sourceMappingURL=style.css.map */
