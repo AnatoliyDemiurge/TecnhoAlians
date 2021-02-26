@@ -139,27 +139,38 @@ html{
             background:white;
             .container{
                 .row{
-                    .variables__list{
-                        list-style:none;
-                        .variables__item{
-                            font-weight: 500;
-                            font-size: 16px;
-                            line-height: 19px;
-                            color: #A5A5A5;
+                    .col-md-9{
+                        .variables__left{
+                            padding-top:60px;
+                            justify-content: space-between;
+                            padding-bottom:23px;
+                            .variables__list{
+                                list-style:none;
+                                .variables__item{
+                                    padding-bottom:37px;
+                                    font-weight: 500;
+                                    font-size: 16px;
+                                    line-height: 19px;
+                                    color: #A5A5A5;
+                                }
+                            }
                         }
                     }
-                }
-                .variables__row-1{
-                    padding-top:60px;
-                    margin-bottom:37px;
-                    .variables__list{
-                        justify-content:space-between;
-                    }
-                }
-                .variables__row-2{
-                    padding-bottom:60px;
-                    .variables__list{
-                        justify-content:space-between;
+                    .col-md-3{
+                        .variables__list{
+                            padding-top:60px;
+                            list-style:none;
+                            .variables__item{
+                                padding-bottom:37px;
+                                font-weight: 500;
+                                font-size: 16px;
+                                line-height: 19px;
+                                color: #A5A5A5;
+                                &:first-child{
+                                    padding-bottom:20px;
+                                }
+                            }
+                        }
                     }
                 }
             }

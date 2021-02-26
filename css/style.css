@@ -139,35 +139,40 @@ html body .variables {
   background: white;
 }
 
-html body .variables .container .row .variables__list {
+html body .variables .container .row .col-md-9 .variables__left {
+  padding-top: 60px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-bottom: 23px;
+}
+
+html body .variables .container .row .col-md-9 .variables__left .variables__list {
   list-style: none;
 }
 
-html body .variables .container .row .variables__list .variables__item {
+html body .variables .container .row .col-md-9 .variables__left .variables__list .variables__item {
+  padding-bottom: 37px;
   font-weight: 500;
   font-size: 16px;
   line-height: 19px;
   color: #A5A5A5;
 }
 
-html body .variables .container .variables__row-1 {
+html body .variables .container .row .col-md-3 .variables__list {
   padding-top: 60px;
-  margin-bottom: 37px;
+  list-style: none;
 }
 
-html body .variables .container .variables__row-1 .variables__list {
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+html body .variables .container .row .col-md-3 .variables__list .variables__item {
+  padding-bottom: 37px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #A5A5A5;
 }
 
-html body .variables .container .variables__row-2 {
-  padding-bottom: 60px;
-}
-
-html body .variables .container .variables__row-2 .variables__list {
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+html body .variables .container .row .col-md-3 .variables__list .variables__item:first-child {
+  padding-bottom: 20px;
 }
 /*# sourceMappingURL=style.css.map */
