@@ -314,4 +314,10 @@ html body .retraining .container .retraining__row-2 .col-md-4 .retraining__item 
   border: 1px solid #336FEF;
   color: #336FEF;
 }
+
+html body .teaching .container .row .col-md-7 .teaching__title {
+  font-size: 36px;
+  line-height: 44px;
+  color: #333333;
+}
 /*# sourceMappingURL=style.css.map */

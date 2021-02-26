@@ -305,5 +305,18 @@ html{
                 }
             }
         }
+        .teaching{
+            .container{
+                .row{
+                    .col-md-7{
+                        .teaching__title{
+                            font-size: 36px;
+                            line-height: 44px;
+                            color: #333333;
+                        }
+                    }
+                }
+            }
+        }
     }
 }
