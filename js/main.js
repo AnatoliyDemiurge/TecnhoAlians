@@ -5,7 +5,7 @@ $(function(){
         nav:true,
         startPosition:0,
         dots:false,
-        navText: ['<img src="img/svg/left.svg">','<img src="img/svg/right.svg">'],
+        navText: ['<img src="img/left.png">','<img src="img/right.png">'],
         responsive:{
             0:{
                 items:1

@@ -388,6 +388,7 @@ html body .systemic .container .systemic__row-2 {
 }
 
 html body .systemic .container .systemic__row-2 .col .owl-carousel .item .systemic__wrapper {
+  height: 487px;
   background: #F6F6F6;
   border-radius: 5px;
 }
@@ -395,6 +396,7 @@ html body .systemic .container .systemic__row-2 .col .owl-carousel .item .system
 html body .systemic .container .systemic__row-2 .col .owl-carousel .item .systemic__wrapper .systemic__pic {
   background: #D2D2D2;
   border-radius: 5px 5px 0px 0px;
+  height: 347px;
 }
 
 html body .systemic .container .systemic__row-2 .col .owl-carousel .item .systemic__wrapper .systemic__info {
