@@ -370,6 +370,7 @@ html body .teaching .container .teaching__row-2 {
 
 html body .systemic {
   background-color: white;
+  position: relative;
 }
 
 html body .systemic .container .row .col-md-7 .systemic__title {
@@ -387,6 +388,26 @@ html body .systemic .container .systemic__row-2 {
   margin-bottom: 55px;
 }
 
+html body .systemic .container .systemic__row-2 .col {
+  position: static;
+}
+
+html body .systemic .container .systemic__row-2 .col .owl-carousel {
+  position: static;
+}
+
+html body .systemic .container .systemic__row-2 .col .owl-carousel .owl-nav .owl-prev {
+  position: absolute;
+  top: 50%;
+  left: 6%;
+}
+
+html body .systemic .container .systemic__row-2 .col .owl-carousel .owl-nav .owl-next {
+  position: absolute;
+  top: 50%;
+  right: 6%;
+}
+
 html body .systemic .container .systemic__row-2 .col .owl-carousel .item .systemic__wrapper {
   height: 487px;
   background: #F6F6F6;
@@ -396,10 +417,11 @@ html body .systemic .container .systemic__row-2 .col .owl-carousel .item .system
 html body .systemic .container .systemic__row-2 .col .owl-carousel .item .systemic__wrapper .systemic__pic {
   background: #D2D2D2;
   border-radius: 5px 5px 0px 0px;
-  height: 347px;
+  max-height: 340px;
 }
 
 html body .systemic .container .systemic__row-2 .col .owl-carousel .item .systemic__wrapper .systemic__info {
+  max-height: 115px;
   padding: 48px 0px 54px 30px;
 }
 

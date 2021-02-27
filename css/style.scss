@@ -363,6 +363,7 @@ html{
         }
         .systemic{
             background-color:white;
+            position: relative;
             .container{
                 .row{
                     .col-md-7{
@@ -380,8 +381,21 @@ html{
                 .systemic__row-2{
                     margin-bottom:55px;
                     .col{
+                        position:static;
                         .owl-carousel{
-                            
+                            position:static;
+                            .owl-nav{
+                              .owl-prev{
+                                position:absolute;
+                                top:50%;
+                                left:6%;
+                              }
+                              .owl-next{
+                                position:absolute;
+                                top:50%;
+                                right:6%;
+                              }
+                            }
                             .item{
                                 .systemic__wrapper{
                                     height:487px;
@@ -390,10 +404,10 @@ html{
                                     .systemic__pic{                   
                                         background: #D2D2D2;
                                         border-radius:5px 5px 0px 0px;
-                                        height:347px;
+                                        max-height:340px;
                                     }
                                     .systemic__info{
-                                     
+                                        max-height:115px;
                                         padding:48px 0px 54px 30px;
                                         .systemic__text{
                                             font-size: 24px;
