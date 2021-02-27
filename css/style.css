@@ -371,6 +371,7 @@ html body .teaching .container .teaching__row-2 {
 html body .systemic {
   background-color: white;
   position: relative;
+  padding-bottom: 118px;
 }
 
 html body .systemic .container .row .col-md-7 .systemic__title {
@@ -381,10 +382,6 @@ html body .systemic .container .row .col-md-7 .systemic__title {
 
 html body .systemic .container .systemic__row-1 {
   padding-top: 71px;
-  margin-bottom: 55px;
-}
-
-html body .systemic .container .systemic__row-2 {
   margin-bottom: 55px;
 }
 
