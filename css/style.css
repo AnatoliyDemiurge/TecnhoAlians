@@ -527,10 +527,12 @@ html body .useful .container .useful__row-2 .col-md-4 .useful__item .useful__pho
 html body .help {
   background: #F2F4F3;
   position: relative;
+  margin-bottom: 69px;
 }
 
 html body .help .container .row .help__left .help__info {
   padding-top: 93px;
+  padding-bottom: 85px;
 }
 
 html body .help .container .row .help__left .help__info .help__title {
@@ -570,6 +572,8 @@ html body .help .container .row .help__left .help__info .help__contact {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  padding-top: 27px;
+  padding-bottom: 45px;
 }
 
 html body .help .container .row .help__left .help__info .help__contact .help__form-email {
@@ -578,6 +582,45 @@ html body .help .container .row .help__left .help__info .help__contact .help__fo
 
 html body .help .container .row .help__left .help__info .help__contact .help__form-nubmer {
   width: 48%;
+}
+
+html body .help .container .row .help__left .help__info .help__interplay {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+html body .help .container .row .help__left .help__info .help__interplay .help__politic {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+html body .help .container .row .help__left .help__info .help__interplay .help__politic .help__text {
+  margin-left: 15px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 145.5%;
+  color: #A5A5A5;
+}
+
+html body .help .container .row .help__left .help__info .help__interplay .help__send {
+  border: 0;
+  font-size: 16px;
+  line-height: 19px;
+  color: #FFFFFF;
+  padding: 13px 31px;
+  background: #E30613;
+  border-radius: 5px;
 }
 
 html body .help .container .row .help__right {

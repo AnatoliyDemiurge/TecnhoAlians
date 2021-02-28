@@ -506,11 +506,13 @@ html{
         .help{
             background: #F2F4F3;
             position: relative;
+            margin-bottom:69px;
             .container{
                 .row{
-                    .help__left{
+                    .help__left{   
                         .help__info{
                             padding-top:93px;
+                            padding-bottom:85px;
                             .help__title{
                                 font-size: 48px;
                                 line-height: 58px;
@@ -536,15 +538,43 @@ html{
                             }
                             .help__form-name{
                                 width:100%;
+                                
                             }
                             .help__contact{
                                 display:flex;
                                 justify-content:space-between;
+                                padding-top:27px;
+                                padding-bottom:45px;
                                 .help__form-email{
                                     width:48%;
                                 }
                                 .help__form-nubmer{
                                     width:48%;
+                                }
+                            }
+                            .help__interplay{
+                                display:flex;
+                                align-items:center;
+                                justify-content: space-between;
+                                .help__politic{
+                                    display:flex;
+                                    align-items:center;
+                                    .help__text{
+                                        margin-left:15px;
+                                        font-weight: 500;
+                                        font-size: 12px;
+                                        line-height: 145.5%;
+                                        color: #A5A5A5;
+                                    }
+                                }
+                                .help__send{
+                                    border:0;
+                                    font-size: 16px;
+                                    line-height: 19px;
+                                    color: #FFFFFF;
+                                    padding:13px 31px;
+                                    background: #E30613;
+                                    border-radius: 5px;
                                 }
                             }
                         }
