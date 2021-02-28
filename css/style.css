@@ -16,6 +16,13 @@ h3 {
   line-height: 44px;
 }
 
+h6 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #333333;
+}
+
 html body {
   font-family: 'Lato', sans-serif;
   background: #E5E5E5;
@@ -432,6 +439,7 @@ html body .systemic .container .systemic__row-2 .col .owl-carousel .item .system
 
 html body .trust {
   background-color: white;
+  padding-bottom: 120px;
 }
 
 html body .trust .container .row .col {
@@ -446,5 +454,45 @@ html body .trust .container .trust__row-1 {
 
 html body .trust .container .trust__row-2 {
   padding-bottom: 63px;
+}
+
+html body .useful {
+  background: white;
+  padding-bottom: 97px;
+}
+
+html body .useful .container .useful__row-1 {
+  padding-bottom: 51px;
+}
+
+html body .useful .container .useful__row-1 .useful__outset {
+  text-align: right;
+  padding-top: 15px;
+}
+
+html body .useful .container .useful__row-1 .useful__outset a {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #A5A5A5;
+}
+
+html body .useful .container .useful__row-2 .col-md-4 .useful__item {
+  background: #F6F6F6;
+}
+
+html body .useful .container .useful__row-2 .col-md-4 .useful__item .useful__info {
+  padding: 30px 0px 0px 12px;
+}
+
+html body .useful .container .useful__row-2 .col-md-4 .useful__item .useful__info .useful__rank {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #A5A5A5;
+}
+
+html body .useful .container .useful__row-2 .col-md-4 .useful__item .useful__photo {
+  width: 100%;
 }
 /*# sourceMappingURL=style.css.map */

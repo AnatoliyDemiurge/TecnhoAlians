@@ -15,6 +15,13 @@ h3{
     line-height: 44px;
 }
 
+h6{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #333333;
+}
+
 html{
     body{
         
@@ -426,6 +433,7 @@ html{
         }
         .trust{
             background-color:white;
+            padding-bottom:120px;
             .container{
                 .row{
                     .col{
@@ -440,6 +448,50 @@ html{
                 }
                 .trust__row-3{
 
+                }
+            }
+        }
+        .useful{
+            background:white;
+            padding-bottom:97px;
+            .container{
+                .row{
+                    
+                }
+                .useful__row-1{
+                    padding-bottom:51px;
+                    .col-md-5{
+
+                    }
+                    .useful__outset{
+                        text-align:right;
+                        padding-top:15px;
+                        a{
+                            font-weight: 500;
+                            font-size: 16px;
+                            line-height: 19px;
+                            color: #A5A5A5;
+                        }
+                    }
+                }
+                .useful__row-2{
+                    .col-md-4{
+                        .useful__item{
+                            background:#F6F6F6;
+                            .useful__info{
+                                padding:30px 0px 0px 12px;
+                                .useful__rank{
+                                    font-weight: 500;
+                                    font-size: 16px;
+                                    line-height: 19px;
+                                    color: #A5A5A5;
+                                }
+                            }
+                            .useful__photo{
+                                width:100%;
+                            }
+                        }
+                    }
                 }
             }
         }
