@@ -22,9 +22,17 @@ h6{
     color: #333333;
 }
 
+input[type="text"]{
+    &::placeholder{
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 26px;
+        color: #A5A5A5;
+    }
+}
+
 html{
     body{
-        
         font-family: 'Lato', sans-serif;
         background: #E5E5E5;
         .header{
@@ -501,8 +509,44 @@ html{
             .container{
                 .row{
                     .help__left{
-                        .help__title{
-                          
+                        .help__info{
+                            padding-top:93px;
+                            .help__title{
+                                font-size: 48px;
+                                line-height: 58px;
+                                color: #333333;
+                            }
+                            .help__subtitle{
+                                font-size: 16px;
+                                line-height: 145.5%;
+                                color: #A5A5A5;
+                            }
+                            .help__form{
+                                padding: 0;
+                                margin: 0;
+                                border: 0;
+                                border: none;
+                                background: #F2F4F3;
+                                border-bottom: 1px solid #A5A5A5;
+                                font-weight: 500;
+                                font-size: 18px;
+                                line-height: 26px;
+                                color: #A5A5A5;
+                                padding-bottom:13px;
+                            }
+                            .help__form-name{
+                                width:100%;
+                            }
+                            .help__contact{
+                                display:flex;
+                                justify-content:space-between;
+                                .help__form-email{
+                                    width:48%;
+                                }
+                                .help__form-nubmer{
+                                    width:48%;
+                                }
+                            }
                         }
                     }
                     .help__right{

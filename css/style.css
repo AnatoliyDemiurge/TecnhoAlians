@@ -23,6 +23,34 @@ h6 {
   color: #333333;
 }
 
+input[type="text"]::-webkit-input-placeholder {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+  color: #A5A5A5;
+}
+
+input[type="text"]:-ms-input-placeholder {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+  color: #A5A5A5;
+}
+
+input[type="text"]::-ms-input-placeholder {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+  color: #A5A5A5;
+}
+
+input[type="text"]::placeholder {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+  color: #A5A5A5;
+}
+
 html body {
   font-family: 'Lato', sans-serif;
   background: #E5E5E5;
@@ -499,6 +527,57 @@ html body .useful .container .useful__row-2 .col-md-4 .useful__item .useful__pho
 html body .help {
   background: #F2F4F3;
   position: relative;
+}
+
+html body .help .container .row .help__left .help__info {
+  padding-top: 93px;
+}
+
+html body .help .container .row .help__left .help__info .help__title {
+  font-size: 48px;
+  line-height: 58px;
+  color: #333333;
+}
+
+html body .help .container .row .help__left .help__info .help__subtitle {
+  font-size: 16px;
+  line-height: 145.5%;
+  color: #A5A5A5;
+}
+
+html body .help .container .row .help__left .help__info .help__form {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  border: none;
+  background: #F2F4F3;
+  border-bottom: 1px solid #A5A5A5;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+  color: #A5A5A5;
+  padding-bottom: 13px;
+}
+
+html body .help .container .row .help__left .help__info .help__form-name {
+  width: 100%;
+}
+
+html body .help .container .row .help__left .help__info .help__contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+html body .help .container .row .help__left .help__info .help__contact .help__form-email {
+  width: 48%;
+}
+
+html body .help .container .row .help__left .help__info .help__contact .help__form-nubmer {
+  width: 48%;
 }
 
 html body .help .container .row .help__right {
