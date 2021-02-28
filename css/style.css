@@ -495,4 +495,22 @@ html body .useful .container .useful__row-2 .col-md-4 .useful__item .useful__inf
 html body .useful .container .useful__row-2 .col-md-4 .useful__item .useful__photo {
   width: 100%;
 }
+
+html body .help {
+  background: #F2F4F3;
+  position: relative;
+}
+
+html body .help .container .row .help__right {
+  position: static;
+}
+
+html body .help .container .row .help__right .help__photo {
+  background: url("../img/help__female.jpg") no-repeat right top;
+  width: 100%;
+  height: 505px;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
 /*# sourceMappingURL=style.css.map */

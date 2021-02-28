@@ -495,5 +495,29 @@ html{
                 }
             }
         }
+        .help{
+            background: #F2F4F3;
+            position: relative;
+            .container{
+                .row{
+                    .help__left{
+                        .help__title{
+                          
+                        }
+                    }
+                    .help__right{
+                        position:static;
+                        .help__photo{
+                            background:url('../img/help__female.jpg') no-repeat right top;
+                            width:100%;
+                            height:505px;
+                            position:absolute;
+                            right:0;
+                            top:0;
+                        }
+                    }
+                }
+            }
+        }
     }
 }
