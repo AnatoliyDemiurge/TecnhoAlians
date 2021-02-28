@@ -12,6 +12,8 @@
 
 h3 {
   color: #333333;
+  font-size: 36px;
+  line-height: 44px;
 }
 
 html body {
@@ -426,5 +428,23 @@ html body .systemic .container .systemic__row-2 .col .owl-carousel .item .system
   font-size: 24px;
   line-height: 29px;
   color: #333333;
+}
+
+html body .trust {
+  background-color: white;
+}
+
+html body .trust .container .row .col {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+html body .trust .container .trust__row-1 {
+  padding-bottom: 70px;
+}
+
+html body .trust .container .trust__row-2 {
+  padding-bottom: 63px;
 }
 /*# sourceMappingURL=style.css.map */

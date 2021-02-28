@@ -11,6 +11,8 @@
 
 h3{
     color: #333333;
+    font-size: 36px;
+    line-height: 44px;
 }
 
 html{
@@ -419,6 +421,25 @@ html{
                             }
                         }
                     }
+                }
+            }
+        }
+        .trust{
+            background-color:white;
+            .container{
+                .row{
+                    .col{
+                        justify-content: space-between;
+                    }
+                }
+                .trust__row-1{
+                    padding-bottom:70px;
+                }
+                .trust__row-2{
+                    padding-bottom:63px;
+                }
+                .trust__row-3{
+
                 }
             }
         }
