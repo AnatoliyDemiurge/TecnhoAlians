@@ -504,15 +504,14 @@ html{
             }
         }
         .help{
-            background: #F2F4F3;
+            background:#F2F4F3;
             position: relative;
-            margin-bottom:69px;
             .container{
                 .row{
                     .help__left{   
                         .help__info{
                             padding-top:93px;
-                            padding-bottom:93px;
+                            padding-bottom:88px;
                             .help__title{
                                 font-size: 48px;
                                 line-height: 58px;
@@ -588,6 +587,23 @@ html{
                             position:absolute;
                             right:0;
                             top:0;
+                        }
+                    }
+                }
+            }
+        }
+        .efficent{
+            .container{
+                .row{
+                    margin-top:69px;
+                    .col-md-5{
+                        .efficent__title{
+                            margin-bottom:19px;
+                        }
+                        .efficent__text{
+                            font-size: 16px;
+                            line-height: 24px;
+                            color: #A5A5A5;
                         }
                     }
                 }

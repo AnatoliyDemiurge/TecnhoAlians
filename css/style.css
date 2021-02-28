@@ -527,12 +527,11 @@ html body .useful .container .useful__row-2 .col-md-4 .useful__item .useful__pho
 html body .help {
   background: #F2F4F3;
   position: relative;
-  margin-bottom: 69px;
 }
 
 html body .help .container .row .help__left .help__info {
   padding-top: 93px;
-  padding-bottom: 93px;
+  padding-bottom: 88px;
 }
 
 html body .help .container .row .help__left .help__info .help__title {
@@ -634,5 +633,19 @@ html body .help .container .row .help__right .help__photo {
   position: absolute;
   right: 0;
   top: 0;
+}
+
+html body .efficent .container .row {
+  margin-top: 69px;
+}
+
+html body .efficent .container .row .col-md-5 .efficent__title {
+  margin-bottom: 19px;
+}
+
+html body .efficent .container .row .col-md-5 .efficent__text {
+  font-size: 16px;
+  line-height: 24px;
+  color: #A5A5A5;
 }
 /*# sourceMappingURL=style.css.map */
