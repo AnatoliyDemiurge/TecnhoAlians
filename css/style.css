@@ -648,4 +648,37 @@ html body .efficent .container .row .col-md-5 .efficent__text {
   line-height: 24px;
   color: #A5A5A5;
 }
+
+html body .efficent .container .row .col-md-6 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+html body .efficent .container .row .col-md-6 .efficent__list {
+  list-style: none;
+}
+
+html body .efficent .container .row .col-md-6 .efficent__list .efficent__item {
+  margin-bottom: 30px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #A5A5A5;
+  cursor: pointer;
+  -webkit-transition: all .1s linear;
+  transition: all .1s linear;
+}
+
+html body .efficent .container .row .col-md-6 .efficent__list .efficent__item:last-child {
+  margin-bottom: 0px;
+  max-width: 234px;
+}
+
+html body .efficent .container .row .col-md-6 .efficent__list .efficent__item:hover {
+  color: #E63944;
+}
 /*# sourceMappingURL=style.css.map */

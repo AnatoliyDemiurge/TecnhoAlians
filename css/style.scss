@@ -606,6 +606,29 @@ html{
                             color: #A5A5A5;
                         }
                     }
+                    .col-md-6{
+                        display:flex;
+                        justify-content: space-between;
+                        .efficent__list{
+                            list-style:none;
+                            .efficent__item{
+                                margin-bottom:30px;
+                                font-weight: 500;
+                                font-size: 16px;
+                                line-height: 19px;
+                                color: #A5A5A5;
+                                cursor: pointer;
+                                transition: all .1s linear;
+                                &:last-child{
+                                    margin-bottom:0px;
+                                    max-width:234px;
+                                }
+                                &:hover{
+                                    color: #E63944;
+                                }
+                            }
+                        }
+                    }
                 }
             }
         }
