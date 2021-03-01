@@ -195,6 +195,7 @@ html body .variables .container .row .col .variables__list .variables__item {
 }
 
 html body .variables .container .row .col .variables__list .variables__item .variables__text {
+  cursor: pointer;
   font-weight: 500;
   font-size: 16px;
   line-height: 19px;
@@ -210,6 +211,10 @@ html body .variables .container .row .col .variables__list .variables__item .var
   margin-bottom: 59px;
 }
 
+html body .variables .container .row .col .variables__list .variables__item .variables__text:hover {
+  color: #333333;
+}
+
 html body .variables .container .row .col .variables__list .variables__item:last-child {
   max-width: 234px;
 }
@@ -222,21 +227,37 @@ html body .skills {
   margin-bottom: 60px;
 }
 
-html body .skills .container .row .col-md-6 .skills__title {
+html body .skills .container .skills__row-1 {
+  margin-bottom: 60px;
+}
+
+html body .skills .container .skills__row-1 .skills__outset {
+  text-align: right;
+  margin-top: 10px;
+}
+
+html body .skills .container .skills__row-1 .skills__outset .skills__link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #A5A5A5;
+}
+
+html body .skills .container .skills__row-2 .col-md-6 .skills__title {
   font-size: 36px;
   line-height: 44px;
   color: #333333;
   margin-bottom: 52px;
 }
 
-html body .skills .container .row .col-md-6 .skills__offer {
+html body .skills .container .skills__row-2 .col-md-6 .skills__offer {
   -webkit-box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.2);
           box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.2);
   background-color: white;
   padding: 33px 33px 33px 44px;
 }
 
-html body .skills .container .row .col-md-6 .skills__offer .skills__head {
+html body .skills .container .skills__row-2 .col-md-6 .skills__offer .skills__head {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -245,17 +266,17 @@ html body .skills .container .row .col-md-6 .skills__offer .skills__head {
           justify-content: space-between;
 }
 
-html body .skills .container .row .col-md-6 .skills__offer .skills__head .skills__name {
+html body .skills .container .skills__row-2 .col-md-6 .skills__offer .skills__head .skills__name {
   font-weight: 500;
   font-size: 24px;
   line-height: 29px;
 }
 
-html body .skills .container .row .col-md-6 .skills__offer .skills__head .skills__name .skills__plug {
+html body .skills .container .skills__row-2 .col-md-6 .skills__offer .skills__head .skills__name .skills__plug {
   display: block;
 }
 
-html body .skills .container .row .col-md-6 .skills__offer .skills__head .skills__pic {
+html body .skills .container .skills__row-2 .col-md-6 .skills__offer .skills__head .skills__pic {
   position: relative;
   background: #E30613;
   height: 65px;
@@ -263,12 +284,12 @@ html body .skills .container .row .col-md-6 .skills__offer .skills__head .skills
   border-radius: 5px;
 }
 
-html body .skills .container .row .col-md-6 .skills__offer .skills__head .skills__pic .skills__icon {
+html body .skills .container .skills__row-2 .col-md-6 .skills__offer .skills__head .skills__pic .skills__icon {
   margin-left: 20px;
   margin-top: 15px;
 }
 
-html body .skills .container .row .col-md-6 .skills__offer .skills__head .skills__pic .skills__number {
+html body .skills .container .skills__row-2 .col-md-6 .skills__offer .skills__head .skills__pic .skills__number {
   font-weight: 500;
   font-size: 12px;
   line-height: 15px;
@@ -276,7 +297,7 @@ html body .skills .container .row .col-md-6 .skills__offer .skills__head .skills
   margin-left: 11px;
 }
 
-html body .skills .container .row .col-md-6 .skills__offer .skills__text {
+html body .skills .container .skills__row-2 .col-md-6 .skills__offer .skills__text {
   font-weight: 500;
   font-size: 16px;
   line-height: 19px;
@@ -284,17 +305,17 @@ html body .skills .container .row .col-md-6 .skills__offer .skills__text {
   color: #A5A5A5;
 }
 
-html body .skills .container .row .col-md-6 .skills__offer .skills__record {
+html body .skills .container .skills__row-2 .col-md-6 .skills__offer .skills__record {
   text-decoration: none;
 }
 
-html body .skills .container .row .col-md-6 .skills__outset {
+html body .skills .container .skills__row-2 .col-md-6 .skills__outset {
   margin-top: 18px;
   margin-bottom: 55px;
   text-align: right;
 }
 
-html body .skills .container .row .col-md-6 .skills__outset .skills__link {
+html body .skills .container .skills__row-2 .col-md-6 .skills__outset .skills__link {
   font-weight: 500;
   font-size: 16px;
   line-height: 19px;
@@ -360,14 +381,13 @@ html body .teaching .container .row .col-md-7 .teaching__title {
 
 html body .teaching .container .row .col-md-6 .teaching__item .teaching__pic {
   background: #ECF1F7;
-  width: 200px;
+  width: 100%;
   height: 195px;
 }
 
 html body .teaching .container .row .col-md-6 .teaching__item .teaching__info {
-  padding: 37px 0px 0px 24px;
+  padding: 37px 147px 18px 24px;
   background: white;
-  padding-right: 137px;
 }
 
 html body .teaching .container .row .col-md-6 .teaching__item .teaching__info .teaching__name {
