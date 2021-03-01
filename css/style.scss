@@ -593,6 +593,7 @@ html{
             }
         }
         .efficent{
+            border: 1px solid #E7E8EA;
             .container{
                 .row{
                     margin-top:69px;
@@ -626,6 +627,43 @@ html{
                                 &:hover{
                                     color: #E63944;
                                 }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .footer{
+            .container{
+                .row{
+                    .col-md-6{
+                        .footer__social-media{
+                            .footer__pic{
+                                margin-right:22px;
+                            }
+                        }
+                    }
+                }
+                .footer__row-1{
+                    margin-bottom:30px;
+                }
+                .footer__row-2{
+                    padding-bottom:38px;
+                    .col-md-6{
+                        .footer__right{
+                            margin-top:10px;
+                            .footer__text{
+                                font-weight: 500;
+                                font-size: 16px;
+                                line-height: 19px;
+                                color: #A5A5A5;
+                            }
+                            .footer__dot{
+                                font-weight: 500;
+                                font-size: 16px;
+                                line-height: 19px;
+                                color: #A5A5A5;
+                                margin:0px 17px;
                             }
                         }
                     }

@@ -635,6 +635,10 @@ html body .help .container .row .help__right .help__photo {
   top: 0;
 }
 
+html body .efficent {
+  border: 1px solid #E7E8EA;
+}
+
 html body .efficent .container .row {
   margin-top: 69px;
 }
@@ -680,5 +684,36 @@ html body .efficent .container .row .col-md-6 .efficent__list .efficent__item:la
 
 html body .efficent .container .row .col-md-6 .efficent__list .efficent__item:hover {
   color: #E63944;
+}
+
+html body .footer .container .row .col-md-6 .footer__social-media .footer__pic {
+  margin-right: 22px;
+}
+
+html body .footer .container .footer__row-1 {
+  margin-bottom: 30px;
+}
+
+html body .footer .container .footer__row-2 {
+  padding-bottom: 38px;
+}
+
+html body .footer .container .footer__row-2 .col-md-6 .footer__right {
+  margin-top: 10px;
+}
+
+html body .footer .container .footer__row-2 .col-md-6 .footer__right .footer__text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #A5A5A5;
+}
+
+html body .footer .container .footer__row-2 .col-md-6 .footer__right .footer__dot {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #A5A5A5;
+  margin: 0px 17px;
 }
 /*# sourceMappingURL=style.css.map */
