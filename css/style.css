@@ -180,50 +180,30 @@ html body .variables {
   margin-bottom: 60px;
 }
 
-html body .variables .container .row .col-md-9 .variables__left {
-  padding-top: 60px;
+html body .variables .container .row .col .variables__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding-bottom: 23px;
 }
 
-html body .variables .container .row .col-md-9 .variables__left .variables__list {
+html body .variables .container .row .col .variables__list .variables__item {
   list-style: none;
 }
 
-html body .variables .container .row .col-md-9 .variables__left .variables__list .variables__item {
-  padding-bottom: 37px;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 19px;
-  color: #A5A5A5;
-  cursor: pointer;
+html body .variables .container .row .col .variables__list .variables__item .variables__text {
+  margin-top: 37px;
 }
 
-html body .variables .container .row .col-md-9 .variables__left .variables__list .variables__item:hover {
-  color: #333333;
+html body .variables .container .row .col .variables__list .variables__item:last-child {
+  max-width: 234px;
 }
 
-html body .variables .container .row .col-md-3 .variables__list {
-  padding-top: 60px;
-  list-style: none;
-}
-
-html body .variables .container .row .col-md-3 .variables__list .variables__item {
-  padding-bottom: 37px;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 19px;
-  color: #A5A5A5;
-}
-
-html body .variables .container .row .col-md-3 .variables__list .variables__item:first-child {
-  padding-bottom: 20px;
-}
-
-html body .variables .container .row .col-md-3 .variables__list .variables__item:hover {
-  color: black;
+html body .variables .container .row .col .variables__list .variables__item-5 .variables__text:last-child {
+  margin-top: 15px;
 }
 
 html body .skills {
