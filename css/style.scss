@@ -169,7 +169,17 @@ html{
                             .variables__item{
                                 list-style:none;
                                 .variables__text{
+                                    font-weight: 500;
+                                    font-size: 16px;
+                                    line-height: 19px;
+                                    color: #A5A5A5;
                                     margin-top:37px;
+                                    &:first-child{
+                                        margin-top:59px;
+                                    }
+                                    &:last-child{
+                                        margin-bottom:59px;
+                                    }
                                 }
                                 &:last-child{
                                     max-width:234px;
@@ -178,7 +188,7 @@ html{
                             .variables__item-5{
                                 .variables__text{
                                     &:last-child{
-                                        margin-top:15px;
+                                        margin-top:18px;
                                     }
                                 }
                             }
