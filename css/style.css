@@ -70,6 +70,15 @@ html body .header .container .row {
   position: relative;
 }
 
+html body .header .container .row .header__left-side {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
 html body .header .container .row .header__left-side .header__logo {
   padding-bottom: 10px;
   max-width: 100%;
@@ -78,13 +87,18 @@ html body .header .container .row .header__left-side .header__logo {
 html body .header .container .row .header__left-side .header__catalog {
   font-family: 'Lato', sans-serif;
   border: 1px solid #A5A5A5;
-  margin-left: 54px;
   border-radius: 5px;
   background: #E5E5E5;
   padding: 12px 27px 14px 20px;
   font-size: 16px;
   line-height: 19px;
   color: #A5A5A5;
+}
+
+@media screen and (max-width: 960px) {
+  html body .header .container .row .header__left-side .header__catalog {
+    display: none;
+  }
 }
 
 html body .header .container .row .header__left-side .header__catalog .header__text {
@@ -106,6 +120,12 @@ html body .header .container .row .header__right-side .header__list {
   display: flex;
   list-style: none;
   margin-top: 10px;
+}
+
+@media screen and (max-width: 960px) {
+  html body .header .container .row .header__right-side .header__list {
+    display: none;
+  }
 }
 
 html body .header .container .row .header__right-side .header__list .header__item {
@@ -138,6 +158,13 @@ html body .header .container .row .header__right-side .header__list .header__ite
   color: #333333;
 }
 
+@media screen and (max-width: 1000px) {
+  html body .header .container .row .header__right-side .header__list .header__item .header__link {
+    font-size: 14px;
+    line-height: 17px;
+  }
+}
+
 html body .header .container .row .header__right-side .header__list .header__item-2:hover::after {
   width: 12%;
 }
@@ -154,7 +181,7 @@ html body .header .container .row .header__right-side .header__enter {
   font-family: 'Lato', sans-serif;
   background: #E30613;
   border-radius: 5px;
-  padding: 12px 20px 14px 20px;
+  padding: 12px 20px 12px 20px;
   border: 0px;
   display: inline;
 }
