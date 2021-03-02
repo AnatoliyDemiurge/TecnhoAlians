@@ -549,7 +549,7 @@ html body .useful .container .useful__row-2 .col-md-4 .useful__item .useful__pho
 }
 
 html body .help {
-  background: #F2F4F3;
+  background: #f2f4f2;
   position: relative;
 }
 
@@ -657,6 +657,18 @@ html body .help .container .row .help__right .help__photo {
   position: absolute;
   right: 0;
   top: 0;
+}
+
+@media screen and (max-width: 1300px) {
+  html body .help .container .row .help__right .help__photo {
+    background-size: 50% 100%;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  html body .help .container .row .help__right .help__photo {
+    display: none;
+  }
 }
 
 html body .efficent {
