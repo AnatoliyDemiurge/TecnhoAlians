@@ -155,14 +155,32 @@ html{
         .rise{
             .container{
                 .row{
-                    .col-md-8{
-                        .rise__title{
-                            font-size: 48px;
-                            line-height:50px;
+                    .rise__title{
+                        font-size: 48px;
+                        line-height:50px;
+                        @media screen and (max-width:991px) {
+                            text-align: center;
+                        }
+                        @media screen and (max-width:600px) {
+                            font-size:32px;
+                            line-height:34px;
                         }
                     }
-                    .col-md-4{
-                        .rise__pic{
+                    .rise__pic{
+                        width:100%;
+                    }
+                    .rise__pic-lg{
+                        @media screen and (max-width:991px) {
+                            display:none;
+                        }
+                    }
+                    .rise__pic-mobile{
+                        display:none;
+                        @media  screen and (max-width:991px) {
+                            display:flex;
+                            justify-content: center;
+                        }
+                        @media screen and (max-width:600px){
                             max-width:100%;
                         }
                     }

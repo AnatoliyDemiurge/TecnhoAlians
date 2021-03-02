@@ -194,13 +194,53 @@ html body .header .container .row .header__right-side .header__enter .header__li
   line-height: 19px;
 }
 
-html body .rise .container .row .col-md-8 .rise__title {
+html body .rise .container .row .rise__title {
   font-size: 48px;
   line-height: 50px;
 }
 
-html body .rise .container .row .col-md-4 .rise__pic {
-  max-width: 100%;
+@media screen and (max-width: 991px) {
+  html body .rise .container .row .rise__title {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  html body .rise .container .row .rise__title {
+    font-size: 32px;
+    line-height: 34px;
+  }
+}
+
+html body .rise .container .row .rise__pic {
+  width: 100%;
+}
+
+@media screen and (max-width: 991px) {
+  html body .rise .container .row .rise__pic-lg {
+    display: none;
+  }
+}
+
+html body .rise .container .row .rise__pic-mobile {
+  display: none;
+}
+
+@media screen and (max-width: 991px) {
+  html body .rise .container .row .rise__pic-mobile {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  html body .rise .container .row .rise__pic-mobile {
+    max-width: 100%;
+  }
 }
 
 html body .variables {
