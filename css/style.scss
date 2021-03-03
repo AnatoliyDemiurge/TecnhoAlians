@@ -515,10 +515,19 @@ html{
             padding-bottom:120px;
             .container{
                 .row{
-                    .col{
+                    .trust__wrapper{
+                        display:flex;
                         justify-content: space-between;
-                        .trust__img{
-                            max-width:100%;
+                        @media screen and (max-width:950px) {
+                            flex-wrap:wrap;
+                        }
+                        .trust__item{
+                            @media screen and (max-width:950px) {
+                                width:45%;
+                            }
+                            .trust__img{
+                                max-width:100%;
+                            }
                         }
                     }
                 }
