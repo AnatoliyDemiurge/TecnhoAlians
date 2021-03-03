@@ -417,6 +417,20 @@ html body .retraining .container .row .col-md-7 .retraining__title {
   line-height: 44px;
 }
 
+@media screen and (max-width: 850) {
+  html body .retraining .container .row .col-md-7 .retraining__title {
+    font-size: 24px;
+    line-height: 29px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  html body .retraining .container .row .col-md-7 .retraining__title {
+    font-size: 22px;
+    line-height: 25px;
+  }
+}
+
 html body .retraining .container .retraining__row-2 .col-md-4 .retraining__item {
   border: 1px solid #A5A5A5;
   border-radius: 5px;
@@ -465,26 +479,37 @@ html body .teaching .container .row .col-md-7 .teaching__title {
   color: #333333;
 }
 
-html body .teaching .container .row .col-md-6 .teaching__item .teaching__pic {
-  background: #ECF1F7;
-  max-width: 100%;
-  height: 100%;
-}
-
-html body .teaching .container .row .col-md-6 .teaching__item .teaching__info {
-  padding: 37px 20% 18px 24px;
+html body .teaching .container .row .col-md-6 .teaching__item {
   background: white;
 }
 
-html body .teaching .container .row .col-md-6 .teaching__item .teaching__info .teaching__name {
+html body .teaching .container .row .col-md-6 .teaching__item .teaching__pic {
+  background: #ECF1F7;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+@media screen and (max-width: 500px) {
+  html body .teaching .container .row .col-md-6 .teaching__item .teaching__pic {
+    max-width: 40%;
+  }
+}
+
+html body .teaching .container .row .col-md-6 .teaching__item .teaching__name {
   font-weight: 500;
   font-size: 18px;
   line-height: 22px;
   margin-bottom: 25px;
 }
 
-html body .teaching .container .row .col-md-6 .teaching__item .teaching__info .teaching__text {
-  min-width: 200px;
+@media screen and (max-width: 850px) {
+  html body .teaching .container .row .col-md-6 .teaching__item .teaching__name {
+    font-size: 14px;
+    line-height: 18px;
+  }
+}
+
+html body .teaching .container .row .col-md-6 .teaching__item .teaching__text {
   font-weight: 500;
   font-size: 16px;
   line-height: 19px;
@@ -492,13 +517,27 @@ html body .teaching .container .row .col-md-6 .teaching__item .teaching__info .t
   margin-bottom: 34px;
 }
 
-html body .teaching .container .row .col-md-6 .teaching__item .teaching__info .teaching__more {
+@media screen and (max-width: 850px) {
+  html body .teaching .container .row .col-md-6 .teaching__item .teaching__text {
+    font-size: 14px;
+    line-height: 18px;
+  }
+}
+
+html body .teaching .container .row .col-md-6 .teaching__item .teaching__more {
   font-size: 16px;
   line-height: 19px;
   color: #336FEE;
   border: 0px;
   border-radius: 5px;
   padding: 13px 19px;
+}
+
+@media screen and (max-width: 850px) {
+  html body .teaching .container .row .col-md-6 .teaching__item .teaching__more {
+    font-size: 14px;
+    line-height: 18px;
+  }
 }
 
 html body .teaching .container .teaching__row-2 {
