@@ -193,13 +193,19 @@ html{
             margin-bottom:60px;
             .container{
                 .row{
-                    .col{
+                    .variables__wrapper{
                         .variables__list{
                             display:flex;
                             list-style:none;
                             justify-content: space-between;
+                            @media screen and (max-width:850px) {
+                                flex-wrap:wrap;
+                            }
                             .variables__item{
                                 list-style:none;
+                                @media screen and (max-width:850px) {
+                                    width:100%;
+                                }
                                 .variables__text{
                                     cursor: pointer;
                                     font-weight: 500;
@@ -207,6 +213,11 @@ html{
                                     line-height: 19px;
                                     color: #A5A5A5;
                                     margin-top:37px;
+                                    @media screen and (max-width:850px) {
+                                        font-size:14px;
+                                        line-height:16px;
+                                        text-align:center;
+                                    }
                                     &:first-child{
                                         margin-top:59px;
                                     }
@@ -219,12 +230,18 @@ html{
                                 }
                                 &:last-child{
                                     max-width:234px;
+                                    @media screen and (max-width:850px) {
+                                        max-width:100%;
+                                    }
                                 }
                             }
                             .variables__item-5{
                                 .variables__text{
                                     &:last-child{
                                         margin-top:18px;
+                                        @media screen and (max-width:850px) {
+                                            margin-top:37px;
+                                        }
                                     }
                                 }
                             }

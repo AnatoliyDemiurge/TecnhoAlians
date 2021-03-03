@@ -248,7 +248,7 @@ html body .variables {
   margin-bottom: 60px;
 }
 
-html body .variables .container .row .col .variables__list {
+html body .variables .container .row .variables__wrapper .variables__list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -258,11 +258,24 @@ html body .variables .container .row .col .variables__list {
           justify-content: space-between;
 }
 
-html body .variables .container .row .col .variables__list .variables__item {
+@media screen and (max-width: 850px) {
+  html body .variables .container .row .variables__wrapper .variables__list {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+
+html body .variables .container .row .variables__wrapper .variables__list .variables__item {
   list-style: none;
 }
 
-html body .variables .container .row .col .variables__list .variables__item .variables__text {
+@media screen and (max-width: 850px) {
+  html body .variables .container .row .variables__wrapper .variables__list .variables__item {
+    width: 100%;
+  }
+}
+
+html body .variables .container .row .variables__wrapper .variables__list .variables__item .variables__text {
   cursor: pointer;
   font-weight: 500;
   font-size: 16px;
@@ -271,24 +284,44 @@ html body .variables .container .row .col .variables__list .variables__item .var
   margin-top: 37px;
 }
 
-html body .variables .container .row .col .variables__list .variables__item .variables__text:first-child {
+@media screen and (max-width: 850px) {
+  html body .variables .container .row .variables__wrapper .variables__list .variables__item .variables__text {
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+  }
+}
+
+html body .variables .container .row .variables__wrapper .variables__list .variables__item .variables__text:first-child {
   margin-top: 59px;
 }
 
-html body .variables .container .row .col .variables__list .variables__item .variables__text:last-child {
+html body .variables .container .row .variables__wrapper .variables__list .variables__item .variables__text:last-child {
   margin-bottom: 59px;
 }
 
-html body .variables .container .row .col .variables__list .variables__item .variables__text:hover {
+html body .variables .container .row .variables__wrapper .variables__list .variables__item .variables__text:hover {
   color: #333333;
 }
 
-html body .variables .container .row .col .variables__list .variables__item:last-child {
+html body .variables .container .row .variables__wrapper .variables__list .variables__item:last-child {
   max-width: 234px;
 }
 
-html body .variables .container .row .col .variables__list .variables__item-5 .variables__text:last-child {
+@media screen and (max-width: 850px) {
+  html body .variables .container .row .variables__wrapper .variables__list .variables__item:last-child {
+    max-width: 100%;
+  }
+}
+
+html body .variables .container .row .variables__wrapper .variables__list .variables__item-5 .variables__text:last-child {
   margin-top: 18px;
+}
+
+@media screen and (max-width: 850px) {
+  html body .variables .container .row .variables__wrapper .variables__list .variables__item-5 .variables__text:last-child {
+    margin-top: 37px;
+  }
 }
 
 html body .skills {
